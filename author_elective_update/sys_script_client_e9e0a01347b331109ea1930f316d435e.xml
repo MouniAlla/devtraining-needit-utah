@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>category</field>
+        <global>true</global>
+        <isolate_script>false</isolate_script>
+        <messages/>
+        <name>Test 6</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading) {
+        return;
+    }
+    if (newValue == 'software') {
+		alert('Mouni Pichidi');
+        //g_form.setValue('short_description', g_form.getvalue('number'));
+        //g_form.setMandatory('cmdb_ci', true);
+		g_form.setMandatory('description',true);
+		g_form.setReadOnly('state',true);
+    }
+	
+
+
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-22 23:01:02</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e9e0a01347b331109ea1930f316d435e</sys_id>
+        <sys_mod_count>20</sys_mod_count>
+        <sys_name>Test 6</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_script_client_e9e0a01347b331109ea1930f316d435e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-22 23:38:49</sys_updated_on>
+        <table>incident</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>33231e9c1bcafd546a85eb9b2d4bcb59</instance_id>
+        <instance_name>dev189867</instance_name>
+        <name>sys_script_client_e9e0a01347b331109ea1930f316d435e</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;false&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;category&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;false&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Test 6&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading) {
+        return;
+    }
+    if (newValue == 'software') {
+		alert('Mouni Pichidi');
+        //g_form.setValue('short_description', g_form.getvalue('number'));
+        //g_form.setMandatory('cmdb_ci', true);
+		g_form.setMandatory('description',true);
+		g_form.setReadOnly('state',true);
+    }
+	
+
+
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-22 23:01:02&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;e9e0a01347b331109ea1930f316d435e&lt;/sys_id&gt;&lt;sys_mod_count&gt;20&lt;/sys_mod_count&gt;&lt;sys_name&gt;Test 6&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="NeedIt" source="x_58872_needit"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="NeedIt"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_e9e0a01347b331109ea1930f316d435e&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-22 23:38:49&lt;/sys_updated_on&gt;&lt;table&gt;incident&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-593440840</payload_hash>
+        <record_name>Test 6</record_name>
+        <reverted_from/>
+        <source>df7010d7473331109ea1930f316d430f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-22 23:38:49</sys_created_on>
+        <sys_id>c5ba6c1f47b331109ea1930f316d43bb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18d338a778e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-22 23:38:49</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>cdba241f0fb331107941982a9fee18bd</update_guid>
+        <update_guid_history>cdba241f0fb331107941982a9fee18bd:-593440840,62f9acdb10b33110dfb48534ab3e73ad:480530347,9f19649b9bb331100791d8c3c01dc452:-917762268,0a98609be6b3311002833b40ee7077dc:1777096771,1a48685b1bb33110b07aeafcf44a5c52:-304464381,0b18245b7ab33110be1a5b23fa96d551:1641943597,48c7281b27b33110b11781406d8d0e18:-1542890738,a357e41bbcb33110701842b3bb11ddc7:1286100890,971728d72ab331109c35d86050740a1f:-1814620410,a6d6a8d78eb33110293c5054a5635a1b:351518495,48762c9745b331106f141e5fbeae8c58:-1146826433,db06a49758b33110a7383bb2390e5a39:-1205288206,91c5ac5725b331109956367168236dbb:351518495,2d6564d329b33110d9f4fe666c0bae2c:1178201278,55252057dab3311049f0d07483244182:-615012246,e9c464d3ceb3311078390541bca8a007:-423298709,6364a41786b33110e38ca6d6fc49ed9f:-2016467733,e2a320d326b33110c7594c825b9b8533:418968011,f2332493d1b3311021672ebed5f29b44:-1925845973,82b2a093cbb331109cd19ddb3de1538d:1778991665,3f02a85f21733110c5260ff7b213cc58:42844629</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-22 23:49:54</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>108b4f30d29e4a1589a994122d1c1af1</sys_id>
+        <sys_metadata>e9e0a01347b331109ea1930f316d435e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Test 6</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent display_value="Incident">de3e0c68d9b13110cedf7dffddb48fd6</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_script_client_e9e0a01347b331109ea1930f316d435e</sys_update_name>
+        <sys_update_version display_value="sys_script_client_e9e0a01347b331109ea1930f316d435e">c5ba6c1f47b331109ea1930f316d43bb</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-22 23:49:54</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
